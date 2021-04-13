@@ -7,8 +7,6 @@ export default function UserInfo(props) {
         <ul key={user.id}>
           <li>Name: {user.name}</li>
           <li>Email: {user.email}</li>
-          {/* <li>Password: {user.password}</li>
-          <li>Terms of Service Accepted: Yes</li> */}
         </ul>
       ))}
     </div>

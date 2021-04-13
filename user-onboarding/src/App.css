@@ -7,7 +7,7 @@
 }
 
 .App-header {
-  background-image: url('https://image.freepik.com/free-vector/80-s-geometric-background-with-different-shapes_23-2148279857.jpg');
+  background-image: url('https://i.pinimg.com/originals/23/d8/16/23d81651577d40d4d9ec4709c122c2fc.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -26,6 +26,8 @@
 Form {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  margin: auto;
 }
 
 .field {
@@ -67,7 +69,10 @@ li {
   list-style-type: none;
 }
 
-h1 {
-  background-color: black;
+.header {
   padding: 6px;
+  color: black;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  font-size: 50px;
 }
